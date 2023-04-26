@@ -11,7 +11,7 @@ function Item(props){
             <div className="item-description">
                 {props.title}
             </div>
-            <button className="button">Bye me</button>
+            <button className="button">Contact me</button>
         </div>
         
     )

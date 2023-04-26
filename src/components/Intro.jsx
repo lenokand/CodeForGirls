@@ -7,7 +7,7 @@ function Intro(){
         <div className="intro">
              <h1 className="our-title">Welcom to our first react session</h1>
 
-                <div>Hello</div>
+                <div >Hello, you!</div>
         </div>
         
     )

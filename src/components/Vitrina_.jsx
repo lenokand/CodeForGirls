@@ -7,7 +7,7 @@ function Vitrina () {
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("https://api.github.com/users")
+    fetch("https://jsonplaceholder.typicode.com/albums/1/photos")
       .then(res => res.json())
       .then(
         (result) => {
@@ -30,7 +30,7 @@ function Vitrina () {
     return (
       <div className="vitrina-block container">
         {items.map(item => (
-          <Item key={item.id} url={item.avatar_url} title={item.login}/>
+          <Item url={item.url} title={item.title}/>
         ))}
       </div>
     );

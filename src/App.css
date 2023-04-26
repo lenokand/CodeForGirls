@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fbc861;
 }
 
 @keyframes App-logo-spin {
@@ -38,8 +38,10 @@
   }
 }
 .our-title{
-  background-color: aqua;
-  color: #b8b376;
+  background-color: rgb(255, 187, 0);
+  color: #3e3030;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .button{
@@ -64,4 +66,8 @@
   border-radius: 5px;
   margin: 15px;
   padding: 15px;
+}
+.intro div{
+  font-size: 16px;
+  font-weight: 600;
 }

@@ -15,7 +15,7 @@
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 45px;
-    max-width:calc(33% - 60px);
+    width:calc(20% - 60px);
     padding: 15px;
     border-radius: 15px;
     background-color: rgb(220, 224, 226);
@@ -34,8 +34,21 @@ img{
 }
 .item img{
     border-radius: 9px;
+    height: 100%;
+    object-fit: cover;
+          object-position: center;
 }
-
+.item-image{
+    height: 170px;
+    margin-bottom: 15px;
+}
 .intro{
     margin-bottom: 50px;
+}
+.item-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #f3520c;
+    font-size: 21px;
+    text-transform:capitalize
 }
